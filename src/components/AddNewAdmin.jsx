@@ -24,7 +24,7 @@ const AddNewAdmin = () => {
     try {
       await axios
         .post(
-          "https://mhs-server-7.onrender.com/api/v1/user/admin/addnew",
+          "http://localhost:4000/api/v1/user/admin/addnew",
           { firstName, lastName, email, phone, nic, dob, gender, password },
           {
             withCredentials: true,
