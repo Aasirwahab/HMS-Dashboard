@@ -1,4 +1,5 @@
 import axios from "axios";
+// eslint-disable-next-line no-unused-vars
 import React, { useContext, useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { Context } from "../main";
@@ -32,6 +33,7 @@ const Doctors = () => {
         {doctors && doctors.length > 0 ? (
           doctors.map((element) => {
             return (
+              // eslint-disable-next-line react/jsx-key
               <div className="card">
                 <img
                   src={element.docAvatar && element.docAvatar.url}

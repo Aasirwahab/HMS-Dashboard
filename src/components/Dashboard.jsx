@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useContext, useEffect, useState } from "react";
 import { Context } from "../main";
 import { Navigate } from "react-router-dom";
@@ -64,15 +65,13 @@ const Dashboard = () => {
                 </h5>
               </div>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Facilis, nam molestias. Eaque molestiae ipsam commodi neque.
-                Assumenda repellendus necessitatibus itaque.
+              Manage and oversee all operations with ease. From user management to system settings, this dashboard provides you with the tools and information needed to ensure the smooth running of CAREFUSION Health Management System..
               </p>
             </div>
           </div>
           <div className="secondBox">
             <p>Total Appointments</p>
-            <h3>1500</h3>
+            <h3>30</h3>
           </div>
           <div className="thirdBox">
             <p>Registered Doctors</p>
@@ -90,6 +89,7 @@ const Dashboard = () => {
                 <th>Department</th>
                 <th>Status</th>
                 <th>Visited</th>
+              
               </tr>
             </thead>
             <tbody>

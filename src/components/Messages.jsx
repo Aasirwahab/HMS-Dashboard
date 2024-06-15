@@ -1,5 +1,7 @@
 import axios from "axios";
+// eslint-disable-next-line no-unused-vars
 import React, { useContext, useEffect, useState } from "react";
+// eslint-disable-next-line no-unused-vars
 import { toast } from "react-toastify";
 import { Context } from "../main";
 import { Navigate } from "react-router-dom";
